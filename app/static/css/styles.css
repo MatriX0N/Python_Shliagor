@@ -13,3 +13,6 @@ img {
     border-radius: 10px;
     margin-top: 10px;
 }
+.list-group-item:hover {
+    background-color: #e0f2f1;
+  }
