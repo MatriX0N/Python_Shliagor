@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Профіль користувача: {{ username }}</h2>
+
+<a href="{{ url_for('auth.logout') }}" class="btn btn-danger mb-3">Вийти</a>
+
+<h4>Робота з кукі</h4>
+<form method="POST" class="mb-3">
+    <input type="hidden" name="action" value="add">
+    <div class="row g-2">
+        <div class="col"><input type="text" name="key" placeholder="Ключ" class="form-control" required></div>
+        <div class="col"><input type="text" name="value" placeholder="Значення" class="form-control" required></div>
+        <div class="col-auto"><button class="btn btn-success">Додати</button></div>
+    </div>
+</form>
+
+<form method="POST" class="mb-3">
+    <input type="hidden" name="action" value="delete_one">
+    <div class="row g-2">
+        <div class="col"><input type="text" name="key" placeholder="Ключ для видалення" class="form-control" required></div>
+        <div class="col-auto"><button class="btn btn-warning">Видалити 1</button></div>
+    </div>
+</form>
+
+<form method="POST">
+    <input type="hidden" name="action" value="delete_all">
+    <button class="btn btn-danger">Видалити всі кукі</button>
+</form>
+
+<h4 class="mt-4">Поточні кукі</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr><th>Ключ</th><th>Значення</th></tr>
+    </thead>
+    <tbody>
+        {% for key, value in cookies.items() %}
+        <tr><td>{{ key }}</td><td>{{ value }}</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
