@@ -1,0 +1,86 @@
+2025-10-30 17:13:39,889 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-30 17:13:39,889 - [33mPress CTRL+C to quit[0m
+2025-10-30 17:13:39,891 -  * Restarting with stat
+2025-10-30 17:13:40,200 -  * Debugger is active!
+2025-10-30 17:13:40,201 -  * Debugger PIN: 122-170-480
+2025-10-30 17:14:05,639 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-30 17:14:05,639 - [33mPress CTRL+C to quit[0m
+2025-10-30 17:14:05,641 -  * Restarting with stat
+2025-10-30 17:14:05,957 -  * Debugger is active!
+2025-10-30 17:14:05,958 -  * Debugger PIN: 122-170-480
+2025-10-30 17:15:18,886 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-30 17:15:18,887 - [33mPress CTRL+C to quit[0m
+2025-10-30 17:15:18,888 -  * Restarting with stat
+2025-10-30 17:15:19,183 -  * Debugger is active!
+2025-10-30 17:15:19,185 -  * Debugger PIN: 122-170-480
+2025-10-30 17:15:40,171 - 127.0.0.1 - - [30/Oct/2025 17:15:40] "GET /login HTTP/1.1" 200 -
+2025-10-30 17:15:40,331 - 127.0.0.1 - - [30/Oct/2025 17:15:40] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-10-30 17:15:40,452 - 127.0.0.1 - - [30/Oct/2025 17:15:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-30 17:15:42,502 - 127.0.0.1 - - [30/Oct/2025 17:15:42] "GET /contacts HTTP/1.1" 200 -
+2025-10-30 17:15:42,534 - 127.0.0.1 - - [30/Oct/2025 17:15:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:15:46,615 - 127.0.0.1 - - [30/Oct/2025 17:15:46] "[35m[1mPOST /contacts HTTP/1.1[0m" 500 -
+2025-10-30 17:15:46,672 - 127.0.0.1 - - [30/Oct/2025 17:15:46] "GET /contacts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-30 17:15:46,684 - 127.0.0.1 - - [30/Oct/2025 17:15:46] "GET /contacts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-30 17:15:46,730 - 127.0.0.1 - - [30/Oct/2025 17:15:46] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png&s=Zd5b15C2Dji3coVXPNZO HTTP/1.1" 200 -
+2025-10-30 17:15:46,745 - 127.0.0.1 - - [30/Oct/2025 17:15:46] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-30 17:15:49,136 - 127.0.0.1 - - [30/Oct/2025 17:15:49] "GET /contacts HTTP/1.1" 200 -
+2025-10-30 17:15:53,116 - 127.0.0.1 - - [30/Oct/2025 17:15:53] "GET /contacts HTTP/1.1" 200 -
+2025-10-30 17:15:53,138 - 127.0.0.1 - - [30/Oct/2025 17:15:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:15:53,414 - 127.0.0.1 - - [30/Oct/2025 17:15:53] "GET /contacts HTTP/1.1" 200 -
+2025-10-30 17:15:53,435 - 127.0.0.1 - - [30/Oct/2025 17:15:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:15:53,629 - 127.0.0.1 - - [30/Oct/2025 17:15:53] "GET /contacts HTTP/1.1" 200 -
+2025-10-30 17:15:53,651 - 127.0.0.1 - - [30/Oct/2025 17:15:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:16:44,698 - 127.0.0.1 - - [30/Oct/2025 17:16:44] "GET /contacts HTTP/1.1" 200 -
+2025-10-30 17:16:44,721 - 127.0.0.1 - - [30/Oct/2025 17:16:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:17:11,083 - 127.0.0.1 - - [30/Oct/2025 17:17:11] "GET /login HTTP/1.1" 200 -
+2025-10-30 17:17:11,118 - 127.0.0.1 - - [30/Oct/2025 17:17:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:17:14,392 - The CSRF token is missing.
+2025-10-30 17:17:14,392 - 127.0.0.1 - - [30/Oct/2025 17:17:14] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:23,050 - The CSRF token is missing.
+2025-10-30 17:17:23,050 - 127.0.0.1 - - [30/Oct/2025 17:17:23] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:24,655 - The CSRF token is missing.
+2025-10-30 17:17:24,655 - 127.0.0.1 - - [30/Oct/2025 17:17:24] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:25,036 - The CSRF token is missing.
+2025-10-30 17:17:25,037 - 127.0.0.1 - - [30/Oct/2025 17:17:25] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:25,289 - The CSRF token is missing.
+2025-10-30 17:17:25,290 - 127.0.0.1 - - [30/Oct/2025 17:17:25] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:25,554 - The CSRF token is missing.
+2025-10-30 17:17:25,555 - 127.0.0.1 - - [30/Oct/2025 17:17:25] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:25,790 - The CSRF token is missing.
+2025-10-30 17:17:25,790 - 127.0.0.1 - - [30/Oct/2025 17:17:25] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:26,050 - The CSRF token is missing.
+2025-10-30 17:17:26,050 - 127.0.0.1 - - [30/Oct/2025 17:17:26] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:26,450 - The CSRF token is missing.
+2025-10-30 17:17:26,450 - 127.0.0.1 - - [30/Oct/2025 17:17:26] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:26,941 - The CSRF token is missing.
+2025-10-30 17:17:26,942 - 127.0.0.1 - - [30/Oct/2025 17:17:26] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:27,128 - The CSRF token is missing.
+2025-10-30 17:17:27,128 - 127.0.0.1 - - [30/Oct/2025 17:17:27] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:27,300 - The CSRF token is missing.
+2025-10-30 17:17:27,301 - 127.0.0.1 - - [30/Oct/2025 17:17:27] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:27,555 - The CSRF token is missing.
+2025-10-30 17:17:27,555 - 127.0.0.1 - - [30/Oct/2025 17:17:27] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:27,734 - The CSRF token is missing.
+2025-10-30 17:17:27,734 - 127.0.0.1 - - [30/Oct/2025 17:17:27] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:27,930 - The CSRF token is missing.
+2025-10-30 17:17:27,930 - 127.0.0.1 - - [30/Oct/2025 17:17:27] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:28,116 - The CSRF token is missing.
+2025-10-30 17:17:28,117 - 127.0.0.1 - - [30/Oct/2025 17:17:28] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-10-30 17:17:40,890 -  * Detected change in 'D:\\flask_app_Shliagor\\app\\__init__.py', reloading
+2025-10-30 17:17:40,939 -  * Restarting with stat
+2025-10-30 17:17:41,304 -  * Debugger is active!
+2025-10-30 17:17:41,306 -  * Debugger PIN: 122-170-480
+2025-10-30 17:17:43,364 -  * Detected change in 'D:\\flask_app_Shliagor\\app\\routes.py', reloading
+2025-10-30 17:17:43,405 -  * Restarting with stat
+2025-10-30 17:17:45,222 -  * Debugger is active!
+2025-10-30 17:17:45,224 -  * Debugger PIN: 122-170-480
+2025-10-30 17:17:45,270 - 127.0.0.1 - - [30/Oct/2025 17:17:45] "GET /login HTTP/1.1" 200 -
+2025-10-30 17:17:45,335 - 127.0.0.1 - - [30/Oct/2025 17:17:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:17:48,878 - 127.0.0.1 - - [30/Oct/2025 17:17:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-30 17:17:48,904 - 127.0.0.1 - - [30/Oct/2025 17:17:48] "GET /profile HTTP/1.1" 200 -
+2025-10-30 17:17:48,942 - 127.0.0.1 - - [30/Oct/2025 17:17:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-10-30 17:18:27,774 -  * Detected change in 'D:\\flask_app_Shliagor\\app\\routes.py', reloading
+2025-10-30 17:18:27,815 -  * Restarting with stat
